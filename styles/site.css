@@ -1,0 +1,49 @@
+#landing{
+    display: flex;
+    align-items: center;
+    
+}
+.img{
+    display: none;
+}
+#landing h1{
+    color: whitesmoke;
+    font-size: 4.7rem;
+    font-weight: lighter;
+}
+#landing a{
+    width: 100%;
+    font-size: 30px;
+}
+footer h3{
+    
+    font-size: 20px;
+}
+
+@media(min-width: 700px){
+    
+    .img{
+        display: flex;
+    }
+    #landing{
+        margin-top: 20px;
+        display: flex;
+        justify-content: flex-start;
+        
+    }
+    #landing h1{
+        color: whitesmoke;
+        font-size: 4.1rem;
+        font-weight: lighter;
+        max-width: 450px;
+    }
+    #landing a{
+        font-size: 25px;
+        width: auto;
+    }
+  
+    #landing img{
+        margin-left: 10px;
+        width: 500px;
+    }
+}
